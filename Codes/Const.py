@@ -1,16 +1,46 @@
+import pygame
 from pygame.examples.grid import WINDOW_WIDTH, WINDOW_HEIGHT
+
+#A
+
+
+#B
+
 
 #C
 C_WHITE=(255, 255, 255)
 C_PURPLE=(143, 0, 255)
+C_BLACK=(0,0,0)
+C_BLUE=(0,0,255)
+C_RED=(255,0,0)
+
+#J
+
 
 #M
 MENU_OPTION = ('NEW GAME ',
-               'SCORE',
                'EXIT')
+MOVIMENTO_BOLA = [1, -1]
+
+#N
+NUMERO_BLOCOS = 8
+NUMERO_LINHAS = 5
+NUMERO_TOTAL_BLOCOS = NUMERO_BLOCOS * NUMERO_LINHAS
+
+
+#P
+PONTUACAO = 0
+
+#T
+TAMANHO_BOLA = 15
+TAMANHO_BASE = 130
 
 
 #W
 WINDOW_WIDTH = 1024
 WINDOW_HEIGHT = 768
+
+
+
+
 
